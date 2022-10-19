@@ -111,3 +111,5 @@ Print_test:
     addi t5, t5, 1 #t5 = t5 +1
     bne t5, s1, Print_test          # if not scan over, then continue Print_test loop
     jr ra    
+EXIT:
+    jr ra
